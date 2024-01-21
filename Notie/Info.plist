@@ -4,9 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>./Resources/Fonts/ManjariBold.ttf</string>
-		<string>./Resources/Fonts/ManjariRegular.ttf</string>
-		<string>./Resources/Fonts/ManjariThin.ttf</string>
+		<string>ManjariBold.ttf</string>
+		<string>ManjariRegular.ttf</string>
+		<string>ManjariThin.ttf</string>
 	</array>
 </dict>
 </plist>

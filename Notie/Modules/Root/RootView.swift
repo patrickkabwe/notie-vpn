@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RootView: View {
-    @AppStorage("isOnboarded") private var isOnboarded: Bool = false
+    @AppStorage("isOnboarded") private var isOnboarded: Bool = true
     @AppStorage("currentUserId") private var currentUserId: String?
     
     var body: some View {

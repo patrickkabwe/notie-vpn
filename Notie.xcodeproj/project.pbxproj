@@ -67,6 +67,7 @@
 		CDD049E22B5C868100FECAD4 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 		CDD049E42B5C98C600FECAD4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CDD049E62B5C98D500FECAD4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CDD049E82B5CFD2700FECAD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		CDD049802B5B98E700FECAD4 = {
 			isa = PBXGroup;
 			children = (
+				CDD049E82B5CFD2700FECAD4 /* README.md */,
 				CDD0498B2B5B98E700FECAD4 /* Notie */,
 				CDD0499C2B5B98E800FECAD4 /* NotieTests */,
 				CDD049A62B5B98E800FECAD4 /* NotieUITests */,
