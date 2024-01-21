@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CDD0498D2B5B98E700FECAD4 /* NotieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0498C2B5B98E700FECAD4 /* NotieApp.swift */; };
-		CDD0498F2B5B98E700FECAD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0498E2B5B98E700FECAD4 /* ContentView.swift */; };
+		CDD0498F2B5B98E700FECAD4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0498E2B5B98E700FECAD4 /* RootView.swift */; };
 		CDD049912B5B98E800FECAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD049902B5B98E800FECAD4 /* Assets.xcassets */; };
 		CDD049942B5B98E800FECAD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD049932B5B98E800FECAD4 /* Preview Assets.xcassets */; };
 		CDD0499E2B5B98E800FECAD4 /* NotieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0499D2B5B98E800FECAD4 /* NotieTests.swift */; };
 		CDD049A82B5B98E800FECAD4 /* NotieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049A72B5B98E800FECAD4 /* NotieUITests.swift */; };
 		CDD049AA2B5B98E800FECAD4 /* NotieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049A92B5B98E800FECAD4 /* NotieUITestsLaunchTests.swift */; };
+		CDD049CC2B5C02C400FECAD4 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049CB2B5C02C400FECAD4 /* UIButton.swift */; };
+		CDD049D22B5C090D00FECAD4 /* ManjariBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDD049CE2B5C090D00FECAD4 /* ManjariBold.ttf */; };
+		CDD049D32B5C090D00FECAD4 /* ManjariThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDD049CF2B5C090D00FECAD4 /* ManjariThin.ttf */; };
+		CDD049D42B5C090D00FECAD4 /* ManjariRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDD049D02B5C090D00FECAD4 /* ManjariRegular.ttf */; };
+		CDD049D92B5C765200FECAD4 /* UIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049D82B5C765200FECAD4 /* UIText.swift */; };
+		CDD049DC2B5C77E400FECAD4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049DB2B5C77E400FECAD4 /* Extensions.swift */; };
+		CDD049DF2B5C7A9B00FECAD4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049DE2B5C7A9B00FECAD4 /* OnBoardingView.swift */; };
+		CDD049E12B5C855400FECAD4 /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049E02B5C855400FECAD4 /* OnBoardingModel.swift */; };
+		CDD049E32B5C868100FECAD4 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049E22B5C868100FECAD4 /* OnBoardingViewModel.swift */; };
+		CDD049E52B5C98C600FECAD4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049E42B5C98C600FECAD4 /* LoginView.swift */; };
+		CDD049E72B5C98D500FECAD4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD049E62B5C98D500FECAD4 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		CDD049892B5B98E700FECAD4 /* Notie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD0498C2B5B98E700FECAD4 /* NotieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotieApp.swift; sourceTree = "<group>"; };
-		CDD0498E2B5B98E700FECAD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDD0498E2B5B98E700FECAD4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CDD049902B5B98E800FECAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD049932B5B98E800FECAD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDD049992B5B98E800FECAD4 /* NotieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,18 @@
 		CDD049A32B5B98E800FECAD4 /* NotieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD049A72B5B98E800FECAD4 /* NotieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotieUITests.swift; sourceTree = "<group>"; };
 		CDD049A92B5B98E800FECAD4 /* NotieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDD049CB2B5C02C400FECAD4 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		CDD049CE2B5C090D00FECAD4 /* ManjariBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ManjariBold.ttf; sourceTree = "<group>"; };
+		CDD049CF2B5C090D00FECAD4 /* ManjariThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ManjariThin.ttf; sourceTree = "<group>"; };
+		CDD049D02B5C090D00FECAD4 /* ManjariRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ManjariRegular.ttf; sourceTree = "<group>"; };
+		CDD049D62B5C0ABA00FECAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CDD049D82B5C765200FECAD4 /* UIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIText.swift; sourceTree = "<group>"; };
+		CDD049DB2B5C77E400FECAD4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CDD049DE2B5C7A9B00FECAD4 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		CDD049E02B5C855400FECAD4 /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		CDD049E22B5C868100FECAD4 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		CDD049E42B5C98C600FECAD4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CDD049E62B5C98D500FECAD4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +117,14 @@
 		CDD0498B2B5B98E700FECAD4 /* Notie */ = {
 			isa = PBXGroup;
 			children = (
+				CDD049DA2B5C77A400FECAD4 /* Extensions */,
+				CDD049D62B5C0ABA00FECAD4 /* Info.plist */,
+				CDD049C62B5C026D00FECAD4 /* Components */,
+				CDD049C12B5C017E00FECAD4 /* Modules */,
+				CDD049BB2B5BFE2200FECAD4 /* Resources */,
+				CDD049BA2B5BFDA900FECAD4 /* Config */,
+				CDD049B82B5BFD8500FECAD4 /* Utilities */,
 				CDD0498C2B5B98E700FECAD4 /* NotieApp.swift */,
-				CDD0498E2B5B98E700FECAD4 /* ContentView.swift */,
-				CDD049902B5B98E800FECAD4 /* Assets.xcassets */,
 				CDD049922B5B98E800FECAD4 /* Preview Content */,
 			);
 			path = Notie;
@@ -125,6 +153,133 @@
 				CDD049A92B5B98E800FECAD4 /* NotieUITestsLaunchTests.swift */,
 			);
 			path = NotieUITests;
+			sourceTree = "<group>";
+		};
+		CDD049B82B5BFD8500FECAD4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CDD049BA2B5BFDA900FECAD4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CDD049BB2B5BFE2200FECAD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049CD2B5C090D00FECAD4 /* Fonts */,
+				CDD049BC2B5BFE4A00FECAD4 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDD049BC2B5BFE4A00FECAD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049902B5B98E800FECAD4 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CDD049C12B5C017E00FECAD4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049DD2B5C7A8800FECAD4 /* OnBoarding */,
+				CDD049D72B5C75F700FECAD4 /* Root */,
+				CDD049C32B5C022100FECAD4 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CDD049C32B5C022100FECAD4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049E42B5C98C600FECAD4 /* LoginView.swift */,
+				CDD049E62B5C98D500FECAD4 /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CDD049C62B5C026D00FECAD4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049CA2B5C029E00FECAD4 /* Templates */,
+				CDD049C92B5C029700FECAD4 /* Organisms */,
+				CDD049C82B5C028D00FECAD4 /* Molecules */,
+				CDD049C72B5C028500FECAD4 /* Atoms */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CDD049C72B5C028500FECAD4 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049CB2B5C02C400FECAD4 /* UIButton.swift */,
+				CDD049D82B5C765200FECAD4 /* UIText.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		CDD049C82B5C028D00FECAD4 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		CDD049C92B5C029700FECAD4 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		CDD049CA2B5C029E00FECAD4 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		CDD049CD2B5C090D00FECAD4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049CE2B5C090D00FECAD4 /* ManjariBold.ttf */,
+				CDD049CF2B5C090D00FECAD4 /* ManjariThin.ttf */,
+				CDD049D02B5C090D00FECAD4 /* ManjariRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CDD049D72B5C75F700FECAD4 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CDD0498E2B5B98E700FECAD4 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CDD049DA2B5C77A400FECAD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049DB2B5C77E400FECAD4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDD049DD2B5C7A8800FECAD4 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				CDD049DE2B5C7A9B00FECAD4 /* OnBoardingView.swift */,
+				CDD049E02B5C855400FECAD4 /* OnBoardingModel.swift */,
+				CDD049E22B5C868100FECAD4 /* OnBoardingViewModel.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +386,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD049D22B5C090D00FECAD4 /* ManjariBold.ttf in Resources */,
 				CDD049942B5B98E800FECAD4 /* Preview Assets.xcassets in Resources */,
+				CDD049D42B5C090D00FECAD4 /* ManjariRegular.ttf in Resources */,
+				CDD049D32B5C090D00FECAD4 /* ManjariThin.ttf in Resources */,
 				CDD049912B5B98E800FECAD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +415,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD0498F2B5B98E700FECAD4 /* ContentView.swift in Sources */,
+				CDD0498F2B5B98E700FECAD4 /* RootView.swift in Sources */,
+				CDD049E72B5C98D500FECAD4 /* RegisterView.swift in Sources */,
+				CDD049DC2B5C77E400FECAD4 /* Extensions.swift in Sources */,
+				CDD049CC2B5C02C400FECAD4 /* UIButton.swift in Sources */,
+				CDD049E52B5C98C600FECAD4 /* LoginView.swift in Sources */,
+				CDD049E32B5C868100FECAD4 /* OnBoardingViewModel.swift in Sources */,
+				CDD049D92B5C765200FECAD4 /* UIText.swift in Sources */,
+				CDD049DF2B5C7A9B00FECAD4 /* OnBoardingView.swift in Sources */,
 				CDD0498D2B5B98E700FECAD4 /* NotieApp.swift in Sources */,
+				CDD049E12B5C855400FECAD4 /* OnBoardingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +590,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notie;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +622,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notie;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
